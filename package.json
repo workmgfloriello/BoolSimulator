@@ -1,5 +1,5 @@
 {
-  "name": "cmorgan-plus",
+  "name": "BoolSimulator",
   "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -16,5 +16,10 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "prova": "tsx examples/prova.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6"
   }
 }
