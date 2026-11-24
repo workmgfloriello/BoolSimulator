@@ -1,3 +1,3 @@
 // src/index.ts
-export * from './gates/gate'
-
+export * from './gate/gate'
+export * from "./clock/clock"
