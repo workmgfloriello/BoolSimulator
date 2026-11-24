@@ -1,14 +1,4 @@
-export type GateFunction = (inputs: Wire[], gate: Gate) => boolean;
-
-export type Wire = {
-  name: string;
-  value: boolean;
-};
-
-type ReturnValue = {
-  value: boolean;
-  message: string;
-};
+import { GateFunction, ReturnValue, Wire } from "../types/types";
 
 export class Gate {
   private inputs: Wire[] = [];
